@@ -8,8 +8,8 @@ contabilidad = int(input('Cantidad de alumnos de contabilidad: '))
 diseño = int(input('Cantidad de alumnos de diseño: '))
 
 total = redes+contabilidad+diseño
-p_redes = round((redes/total)*100)
-p_contabilidad = round((contabilidad/total)*100)
-p_diseño = round((diseño/total)*100)
+p_redes = round((redes/total)*100,2)
+p_contabilidad = round((contabilidad/total)*100,2)
+p_diseño = round((diseño/total)*100,2)
 
 print(f'Porcentaje de redes: {p_redes}% \nPorcentaje de contabilidad: {p_contabilidad}% \nPorcentaje de diseño: {p_diseño}%')

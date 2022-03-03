@@ -13,6 +13,6 @@ examen = float(input('Nota de examen: '))
 proyecto = float(input('Nota de proyecto: '))
 
 talleres = ((taller1+taller2+taller3)*0.5)/3
-final = talleres + (examen*0.3) + (proyecto*0.2)
+final = round(talleres + (examen*0.3) + (proyecto*0.2),2)
 
 print(f'La calificaión final del alumno: {final}')
