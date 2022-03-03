@@ -7,3 +7,11 @@ b. Sistemas: 25% del valor dado a Administración
 c. Administración: 35% del valor de la donación
 d. Contabilidad: lo que resta de la donación
 """
+
+donacion = float(input('Ingrese el valor de donación: '))
+telecomunicaciones = donacion*0.1
+sistemas = donacion*0.25
+administración = donacion*0.35
+contabilidad = donacion - (telecomunicaciones + sistemas + administración)
+
+print(f'Telecomunicaciones : ${telecomunicaciones:,} \nSistemas: ${sistemas:,}  \nAdministración: ${administración:,} \nContabilidad: ${contabilidad:,}')
