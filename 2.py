@@ -5,9 +5,9 @@ cantidad distinta. Imprimir el porcentaje que cada quien invierte con respecto
 al total de la inversión.
 """
 
-inversion1 = float(input(f'Ingrese cantidad de inversion 1: '))
-inversion2 = float(input(f'Ingrese cantidad de inversion 2: '))
-inversion3 = float(input(f'Ingrese cantidad de inversion 3: '))
+inversion1 = float(input('Ingrese cantidad de inversion 1: '))
+inversion2 = float(input('Ingrese cantidad de inversion 2: '))
+inversion3 = float(input('Ingrese cantidad de inversion 3: '))
 total = (inversion1 + inversion2 + inversion3)
 
 valor1 = round((inversion1/total)*100)
